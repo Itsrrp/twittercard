@@ -1,0 +1,132 @@
+body {
+    font-family: "montserrat", sans-serif;
+    margin: auto;
+}
+
+
+.fa, .far, .fas {
+    color: rgb(29, 161, 242);
+}
+
+.container {
+  padding: 40px 60px;
+  max-width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.arrow{
+    display: flex;
+    margin-left: 1.8rem;
+}
+
+.arrow-tweet{
+    margin-left: 2.5rem;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.face{
+    height: 70px;
+    border-radius: 50%;
+    width: 70px;
+    object-fit: cover;
+}
+
+
+.name{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    grid-gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.twitter{
+    color: #666;
+}
+
+h3, h4 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+
+.button{
+    color: black;
+    height: 30px;
+    width: 80px;
+    border: none;
+}
+
+.time{
+    color: #666;
+}
+
+.viewtweet{
+    color: #666;
+}
+
+
+.retweets{
+    color: #666;
+    margin-left: 0.5rem;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+}
+
+.facefooter{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.face1{
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    object-fit: cover;
+}
+
+
+.ml{
+    margin-left: 1.1rem;
+}
+
+.reply-btn {
+   text-align: right; 
+}
+
+.reply{
+    background: rgb(29, 161, 242);
+    color: white;
+    border-radius: 48%;
+    width: 70px;
+    height: 40px;
+    border: 1px solid rgb(29, 161, 242);
+}
+
+
+
